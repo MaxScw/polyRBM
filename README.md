@@ -7,7 +7,7 @@
 >    - 'polyRBM.py' contains the pyTorch implementation of the neural network + transformation and training routines
 
 - the C++-source code of the slithering-snake Monte-Carlo alogrithm used in the work is contained in '/polysim'
->    - insctructions for building the polysim executables with Make/CMake:
+-- insctructions for building the polysim executables with Make/CMake:
      
 >>    - on console, go to '/polysim'
          - execute 'cmake .'
