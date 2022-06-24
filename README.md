@@ -12,6 +12,7 @@
              - execute 'cmake .'
              - finish building by executing 'make' in the same directory
      - usage of simulation program: execute 'polysim $N $is2D $isPhantom $nRuns $steps $MCSperRun $isRing $nonReturn'
+     
              - integer variables: N = chain length, nRuns = number of runs to perform, steps = intermediate MCS between two saved conformations MCSperRun = number of MCS to perform for one run
              - boolean variables: is2D = simulation of 2D chains?, isPhantom = simulate excluded volume?, isRing = only sample ring conformations?, nonReturn = simulate exclusion of back-folding?
 
