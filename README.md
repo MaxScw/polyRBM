@@ -3,8 +3,8 @@
 
 
 - the base-level source code for the RBM network, training and evaluation is found in 'analysisUtility.py' and 'polyRBM.py'
->    - 'analysisUtility' contains a collection of evaluation functions for calculating observabels of polymer chains
->    - 'polyRBM.py' contains the pyTorch implementation of the neural network + transformation and training routines
+    - 'analysisUtility' contains a collection of evaluation functions for calculating observabels of polymer chains
+    - 'polyRBM.py' contains the pyTorch implementation of the neural network + transformation and training routines
 
 - the C++-source code of the slithering-snake Monte-Carlo alogrithm used in the work is contained in '/polysim'
     - insctructions for building the polysim executables with Make/CMake:
