@@ -8,7 +8,8 @@
 
 - the C++-source code of the slithering-snake Monte-Carlo alogrithm used in the work is contained in '/polysim'
 >    - insctructions for building the polysim executables with Make/CMake:
-     >    - on console, go to '/polysim'
+     
+>    - on console, go to '/polysim'
          - execute 'cmake .'
          - finish building by executing 'make' in the same directory
      - usage of simulation program: execute 'polysim $N $is2D $isPhantom $nRuns $steps $MCSperRun $isRing $nonReturn'
